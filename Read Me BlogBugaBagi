@@ -1,0 +1,18 @@
+Read Me
+>> https://blogbugabagi.blogspot.com/ <<
+
+##File SQL
+/ummi/database export/db_ummi.sql
+
+##Konfig DB
+/ummi/functions.php
+
+##Menyesuaikan KOnfig
+$conn = mysqli_connect("localhost", "root", "", "db_ummi");
+
+//localhost : merupakan web server
+//root : username
+// "" : password (Kosongkan jika tidak menggunakan password)
+//db_ummi : nama database
+
+>> https://blogbugabagi.blogspot.com/ <<
